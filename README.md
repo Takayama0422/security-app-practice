@@ -19,10 +19,9 @@ COACHTECH 教材 Tutorial 10-6「Webセキュリティ ハンズオン」で作�
 
 ## 動作確認
 
-動作確認URL: http://localhost/contact
-
-お問い合わせフォームが表示される
-フォームに入力して送信できる
-送信完了画面で入力内容が正しく表示される
-@csrfを削除して送信すると419 Page Expiredエラーになる（CSRF保護の確認）
-メッセージ欄に<script>alert('XSS')</script>を入力しても実行されない（XSS対策の確認）
+- 動作確認URL: http://localhost/contact
+- お問い合わせフォームが表示される
+- フォームに入力して送信できる
+- 送信完了画面で入力内容が正しく表示される
+- @csrfを削除して送信すると419 Page Expiredエラーになる（CSRF保護の確認）
+- メッセージ欄に<script>alert('XSS')</script>を入力しても実行されない（XSS対策の確認）
